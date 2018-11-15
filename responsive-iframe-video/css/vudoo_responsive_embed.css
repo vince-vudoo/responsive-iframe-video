@@ -1,0 +1,40 @@
+/**
+ * VUDOO RESPONSIVE IFRAME CSS
+ *
+ */
+.vudoo--embed {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	max-width: 1280px;
+}
+
+.vudoo--embed .video--outer {
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.vudoo--embed .video--responsive {
+	position: relative;
+	width: 100%;
+}
+
+.vudoo--embed .video--ratio_16_9 {
+	padding-top: 56.25%;
+}
+
+.vudoo--embed .video--wraper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.vudoo--embed iframe {
+	width: 100%;
+	height: 100%;
+	background: #000;
+}
